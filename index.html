@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Encriptador - Challenge - Alura One</title>
+        <link rel="stylesheet" href="reset.css">
+        <link href="style.css" rel="stylesheet">
+        <link href="/js/logica.js">
+        
+    </head>
+
+    <body>
+        <header >
+            <div class="contenedor-header">
+                <img class="Logo" src="img/logo.png" alt="logo de alura">   
+                <h1 class="titulo-principal">Encriptador</h1>
+            </div>
+        
+        </header>
+
+        <main>
+            <div class="contenedor-botones"> 
+                    
+                <button class="botonEncriptar" type="button" onclick="botonEncriptar()">Encriptar
+                </button>
+                <button class="botonDesencriptar" type="button" onclick="botonDesencriptar()">Desencriptar</button>
+                <button id="copiar" class="botonCopiar" type="button" onclick="copiar()">Copiar</button>
+            
+            </div>     
+            <div class="contenedor-cajas"> 
+                <div>
+                    <textarea class="caja-texto" type="text" value=""
+                     cols="25" rows="10" name="ingresar-texto" placeholder="Ingresa el texto aquí. Solo letras minúsculas y mayúsculas." autofocus ></textarea>
+                    </textarea>
+                </div>
+                <div>
+                    <textarea class="caja-mensaje" name="ver-resultado"  cols="25" rows="10" placeholder="Aun no se ha recibido ningún texto. Por favor agrege uno a la caja de texto." readonly></textarea>
+                </div>
+            </div>
+                  
+               
+             
+              
+        </main>
+
+       
+        <footer>
+            <p class="copyright">&copy Copyright Esteban Rodriguez - Alura - Oracle ONE - 2022</p>
+            <div class="logos">
+                <a href="https://www.linkedin.com/in/estebanrodriguezg/" target="_blank"><img         class="linkedin" src="img/linkedin-icon-vector-eps-11574224509jiptiiihug.png"  alt="logo de Linkedin"></a>
+                <a href="https://github.com/rhinonymous"  target="_blank"><img class="gitHub" src="img/githubvector.jpg" alt="Logo de gitHub" ></a>
+            </div>    
+        </footer>
+
+
+
+    <script src="js/logica.js"></script>
+    </body>
+</html>
